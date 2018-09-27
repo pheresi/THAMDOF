@@ -7,7 +7,10 @@ THAMDOF is an educational stand-alone Matlab GUI for performing simplified nonli
 THAMDOF uses a shear-building lumped-mass model of the MDOF system, with masses lumped at the floor levels. Each story lateral hysteretic model consists in a tri-linear model. P-\Delta effects can be included.
 The user inputs the model information through a .csv file. An example of this file is provided for reference.
 
-![Alt text](Figures/BldgModel.jpg?raw=true "Title")
+![Alt text](../Figures/BldgModel.jpg)
+<p align="center">
+  <img src="../Figures/BldgModel.jpg" width="350" title="Building shear-building lumped-mass model">
+</p>
 
 # Ground motions
 
