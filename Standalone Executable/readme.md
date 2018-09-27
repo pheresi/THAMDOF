@@ -10,10 +10,10 @@ In order to run THAMDOF, you will need a MATLAB Compiler Runtime (MCR) **version
 
           http://www.mathworks.com/products/compiler/mcr/index.html
 
-       And download the **64-bit version of the MCR for R2017a**.  
+       And download the **64-bit version of the MCR for R2017a** (note that the MCR is a free standalone version of the MATLAB compiler, so you don't need an account for downloading it)
        For more information about installing and configuring the MCR, visit 
 
           http://www.mathworks.com/help/compiler/install-the-matlab-runtime.html
-   
+       
        Then you can open THAMDOF directly using THAMDOF_v3p4.exe
 
