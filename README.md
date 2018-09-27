@@ -9,7 +9,7 @@ The user inputs the model information through a .csv file. An example of this fi
 
 ![Alt text](Figures/BldgModel.JPG)
 <p align="center">
-  <img src="..master/Figures/BldgModel.JPG" width="350" title="Building shear-building lumped-mass model">
+  <img src="Figures/BldgModel.JPG" width="350" title="Building shear-building lumped-mass model">
 </p>
 
 # Ground motions
