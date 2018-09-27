@@ -4,7 +4,7 @@ THAMDOF is an educational stand-alone Matlab GUI for performing simplified nonli
 
 # Simplified model
 
-THAMDOF uses a shear-building lumped-mass model of the MDOF system, with masses lumped at the floor levels. Each story lateral hysteretic model consists in a tri-linear model. P-\Delta effects can be included.
+THAMDOF uses a shear-building lumped-mass model of the MDOF system, with masses lumped at the floor levels. Each story lateral hysteretic model consists in a tri-linear model. P-Δ effects can be included.
 The user inputs the model information through a .csv file. An example of this file is provided for reference.
 
 <img src="Figures/BldgModel.JPG" width="250" title="Shear-building lumped-mass model"/> <img src="Figures/HystModel.JPG" width="500" title="Hysteretic model"/> 
@@ -13,16 +13,16 @@ The user inputs the model information through a .csv file. An example of this fi
 
 The user inputs the set of ground motion records to be analyzed and their scale factor through a .csv file. An example of this file is provided for reference.
 THAMDOF has two options for the user:
-  (1) Analyzing every ground motion at the specified scale factor
-  (2) Scale every ground motion in order to obtain the scale factor that results in collapse
+1. Analyzing every ground motion at the specified scale factor
+2. Scale every ground motion in order to obtain the scale factor that results in collapse
 
 # Outputs
 
 THAMDOF provides visualization of several responses. Also, it is capable of producing a video of the structural response under a given ground motion.
 The user can export different outputs from THAMDOF:
-  (1) Max and Min values of displacement, interstory displacement, interstory drift ratio (IDR), residual interstory displacement, residual IDR, absolute velocity, interstory velocity, total acceleration, and story restoring force of each floor, during every ground motion
-  (2) Time history series of IDR and story restoring force 
-  (3) Scale factors that produce collapse
+1. Max and Min values of displacement, interstory displacement, interstory drift ratio (IDR), residual interstory displacement, residual IDR, absolute velocity, interstory velocity, total acceleration, and story restoring force of each floor, during every ground motion
+2. Time history series of IDR and story restoring force 
+3. Scale factors that produce collapse
 Results are exported in a .xlsx file.
 
 # Other information
