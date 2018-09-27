@@ -8,7 +8,10 @@ THAMDOF uses a shear-building lumped-mass model of the MDOF system, with masses 
 The user inputs the model information through a .csv file. An example of this file is provided for reference.
 
 <p align="center">
-  <img src="Figures/BldgModel.JPG" width="150" title="Building shear-building lumped-mass model">
+  <img src="Figures/BldgModel.JPG" width="200" title="Shear-building lumped-mass model">
+</p>
+<p align="center">
+  <img src="Figures/HystModel.JPG" width="400" title="Shear-building lumped-mass model">
 </p>
 
 # Ground motions
