@@ -9,10 +9,10 @@ The user inputs the model information through a .csv file. An example of this fi
 
 <div class="row">
   <div class="column">
-    <img src="Figures/BldgModel.JPG" width="200" title="Shear-building lumped-mass model">
+    <img src="Figures/BldgModel.JPG" width="100" title="Shear-building lumped-mass model">
   </div>
   <div class="column">
-    <img src="Figures/HystModel.JPG" width="400" title="Shear-building lumped-mass model">
+    <img src="Figures/HystModel.JPG" width="100" title="Hysteretic model">
   </div>
 </div>
 
