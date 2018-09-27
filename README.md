@@ -24,7 +24,7 @@ THAMDOF has two options for the user:
 
 ## Outputs
 
-THAMDOF provides visualization of several responses. Also, it is capable of producing a video of the structural response under a given ground motion.
+THAMDOF provides visualization of several responses. It is also capable of producing a video of the structural response under a given ground motion.
 
 The user can export different outputs from THAMDOF:
 1. Max and Min values of displacement, interstory displacement, interstory drift ratio (IDR), residual interstory displacement, residual IDR, absolute velocity, interstory velocity, total acceleration, and story restoring force of each floor, during every ground motion
