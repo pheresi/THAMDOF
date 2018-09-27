@@ -11,10 +11,11 @@ The user inputs the model information through a .csv file. An example of this fi
 
 # Ground motions
 
-The user inputs the set of ground motion records to be analyzed and their scale factor through a .csv file. An example of this file is provided for reference.
+The user inputs the set of ground motion records to be analyzed and their scale factor through a .csv file. An example of this file is provided for reference. The name of each ground motion is at the first row, the number of points at the second row, the time-step (dt) at the third row, the scale factor at the fourth row, and the acceleration time series (in [g]) is from the fifth row to the end.
+If the number of points specified in the fourth row is greater than the number of acceleration points in the time series, zeros are padded at the end of the record to match the specified number of points. This is particularly useful, for example, for correctly estimating residual deformations. On the other hand, if the number of points specified in the fourth row is lower than the number of acceleration points in the time series, the record is trimmed to match the specified number of points.
 THAMDOF has two options for the user:
 1. Analyzing every ground motion at the specified scale factor
-2. Scale every ground motion in order to obtain the scale factor that results in collapse
+2. Scale every ground motion in order to obtain the scale factor that results in collapse (in this option, scale factors speficied at the input file are neglected)
 
 # Outputs
 
