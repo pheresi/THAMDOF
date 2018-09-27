@@ -1,38 +1,16 @@
-MATLAB Compiler
+# Installation
 
-1. Prerequisites for Deployment 
+In order to run THAMDOF, will need a MATLAB Compiler Runtime (MCR) version 9.2 (64-bit version for R2017a) installed. 
 
-. Verify the MATLAB Compiler Runtime (MCR) is installed and ensure you    
-  have installed version 7.15.   
+  * If you do not have it installed, you can install both the MCR (from the web) and THAMDOF using FullSetup_web.exe
+  * Another option is to navigate to
 
-. If the MCR is not installed, run MCRInstaller, located in:
+   http://www.mathworks.com/products/compiler/mcr/index.html
 
-  <matlabroot>*\toolbox\compiler\deploy\win64\MCRInstaller.exe
+    And download the 64-bit version of the MATLAB Runtime for R2017a.
+    For more information about installing and configuring the MCR, visit 
 
-For more information on the MCR Installer, see the MATLAB Compiler 
-documentation.    
-
-
-NOTE: You will need administrator right to run MCRInstaller. 
-
-
-2. Files to Deploy and Package
-
-Files to package for Standalone 
-================================
--THAMDOF_v3_4.exe
--MCRInstaller.exe 
-   -include when building component by clicking "Add MCR" link 
-    in deploytool
--This readme file 
-
-3. Definitions
-
-For a complete list of product terminology, go to 
-http://www.mathworks.com/help and select MATLAB Compiler.
-
-
-
-* NOTE: <matlabroot> is the directory where MATLAB is installed on the target machine.
-
+   http://www.mathworks.com/help/compiler/install-the-matlab-runtime.html
+   
+  * If you already have the MCR v9.2, then you can open THAMDOF directly using THAMDOF_v3p4.exe
 
