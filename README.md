@@ -27,7 +27,7 @@ Results are exported in a .xlsx file.
 
 # Other information
 
-I developed this tool initially on 2015 for the course CEE385-Performance Based Earthquake Engineering (as its TA), thought by Professor Miranda at Stanford. Since then, every year it has suffered some minor modifications. If you have any recommendation for new features (especially a new name, hehe), don't hesitate in sharing them with us. 
+I developed this tool initially on 2015 for the course CEE385-Performance Based Earthquake Engineering (as its TA), thought by Professor Miranda at Stanford. Since then, every year I've implemented some minor modifications. If you have any recommendation for new features (especially a new name, please... hehe), don't hesitate in sharing them with us. 
 I'm currently working on a Python version of this tool as well.
 
 This tool is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
