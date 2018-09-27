@@ -1,12 +1,12 @@
 # Time History Analysis of MDOF systems: THAMDOF
 
-THAMDOF [provisional name] is an educational Matlab GUI for performing simplified nonlinear time history analyses (THA) of multiple-degrees-of-freedom (MDOF) systems. The solution algorithm consists in Newmark's constant acceleration method, with Newton-Raphson iterations (Chopra 4th Edition, Table 16.3.3).
+THAMDOF [provisional name] is an educational Matlab GUI for performing simplified nonlinear time history analyses (THA) of multiple-degrees-of-freedom (MDOF) systems. The solution algorithm is the Newmark's constant acceleration method, with Newton-Raphson iterations (Chopra 4th Edition, Table 16.3.3).
 
 Here you will find the source code and a standalone executable version.
 
 ## Simplified model
 
-THAMDOF uses a shear-building lumped-mass model of the MDOF system, with masses lumped at the floor levels. Each story lateral hysteretic model consists in a tri-linear model. P-Δ effects can be included.
+THAMDOF uses a shear-building lumped-mass model of the MDOF system, with masses lumped at the floor levels. Each story's lateral hysteretic model consists in a tri-linear model. P-Δ effects can be included.
 
 The user inputs the model information through a .csv file. An example of this file is provided for reference.
 
