@@ -565,7 +565,6 @@ if get(handles.CollapseSFCheck,'value') == 0    % Just run each ground motion
     end
     
 else            % Run each ground motion up to collapse
-    length(ExportOptions)
     pos = get(h,'position');
     set(h,'Position',[pos(1) pos(2) pos(3) pos(4)*1.3])
     
@@ -591,7 +590,7 @@ else            % Run each ground motion up to collapse
             if MAX_ID <= Building.d_col     % No collapse yet
                 SF(igm) = SF(igm) + dSF_use;
             else                            % Collapsed
-                if dSF_use/SF(igm) <= 0.05  % Convergence criteria: 5% of difference
+                if dSF_use/SF(igm) <= 0.01  % Convergence criteria: 1% of difference
                     cont = false;
                 else
                     dSF_use = dSF_use/2;
@@ -935,7 +934,6 @@ if ~isempty(AR)
     xlim([0 1.3*max(time)])
     
     for i = 2:size(Xf,2)
-        (time(i)-time(i-1))/2
         pause((time(i)-time(i-1))/2)
         title(a1,['t = ' num2str(time(i),'%.3f') ' sec'])
         
