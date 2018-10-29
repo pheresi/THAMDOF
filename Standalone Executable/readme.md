@@ -2,7 +2,7 @@
 
 In order to run THAMDOF, you will need a MATLAB Compiler Runtime (MCR) **version 9.5 (64-bit version for R2018b)** installed. 
 
-  * If you already have the MCR v9.5, then you can open THAMDOF directly using THAMDOF_v3p4.exe
+  * If you already have the MCR v9.5, then you can open THAMDOF directly using THAMDOF.exe
   
   * If you do not have the MCR v9.5 installed, you have two options:  
     1. Install both the MCR (from the web) and THAMDOF using FullSetup_web.exe
