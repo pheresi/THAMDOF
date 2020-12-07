@@ -25,6 +25,9 @@ function varargout = THAMDOF(varargin)
 % Version 3.4
 %   - Added export shear forces time histories option
 %
+% Version 3.5
+%   - Fixed a bug when zero-padding the records
+%
 %
 % THAMDOF MATLAB code for THAMDOF.fig
 %      THAMDOF, by itself, creates a new THAMDOF or raises the existing
@@ -484,7 +487,12 @@ GM.time = GM.Acc;
 GM.Npts = LoadedData(1,:);
 for i = 1:size(LoadedData,2)
     Np = GM.Npts(i);
-    GM.Acc{i} = LoadedData(4:3+Np,i);
+    if Np+3 > size(LoadedData,1)
+        GM.Acc{i} = LoadedData(4:end,i);
+        GM.Acc{i}(Np) = 0;
+    else
+        GM.Acc{i} = LoadedData(4:3+Np,i);
+    end
     GM.Acc{i}(isnan(GM.Acc{i})) = 0;
     GM.time{i} = 0:GM.dt(i):(GM.dt(i)*(Np-1));
 end
