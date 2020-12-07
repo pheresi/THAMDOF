@@ -30,6 +30,7 @@ The user can export different outputs from THAMDOF:
 1. Max and Min values of displacement, interstory displacement, interstory drift ratio (IDR), residual interstory displacement, residual IDR, absolute velocity, interstory velocity, total acceleration, and story restoring force of each floor, during every ground motion
 2. Time history series of IDR and story restoring force 
 3. Scale factors that produce collapse
+
 Results are exported in a .xlsx file.
 
 ## Other information
